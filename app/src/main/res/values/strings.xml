@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">VPT#012-RYP</string>
+    <string name="app_name">VPT#012-RYP - Rate Your Pics</string>
     <string name="anleitung">Welcome to Rate Your Pics, an app that allows you to rate your pictures very quickly.\n\nYou rate between ★☆☆☆☆ and ★★★★★. The stars will be added as prefix to the filename for easy sorting in any other program or file manager. ☆☆☆☆☆ moves the picture to trash (undo possible during session). That way you will have a clean and quality sorted collection in a very short time. With ← →  you can go back and forth (and also change your mind and re-rate during a session or skip a rating). ↺ takes you back to this screen to select a new folder.\n\nTo toggle overlay display of stars (after rating) on and off, long-tap the picture in the rating screen.\n\nTo start, tap the big red button below \"Select Folder\", select folder and give permissions.\n\n<b><font color="#efcac2">Your data are yours. Everything is calculated and saved locally. Nothing is sent.</font></b>\n\nGifted to you by Valentin ❤️</string>
 
 
