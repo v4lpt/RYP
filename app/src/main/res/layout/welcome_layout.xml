@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#444654">
+
+    <View
+        android:id="@+id/backgroundView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#444654" />
+
+    <TextView
+        android:id="@+id/titleBar1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        android:background="#343541"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:text="@string/powertools"
+        android:textColor="#CCCCCC"
+        android:textStyle="bold"
+        app:autoSizeMaxTextSize="304sp"
+        app:autoSizeMinTextSize="8sp"
+        app:autoSizeStepGranularity="1sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/titleBar2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titleBar2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="1dp"
+        android:background="#343541"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/app_name_show"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:autoSizeMaxTextSize="30sp"
+        app:autoSizeMinTextSize="10sp"
+        app:autoSizeStepGranularity="1sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleBar1" />
+
+    <TextView
+        android:id="@+id/explanationTextView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fontFamily="monospace"
+        android:padding="13dp"
+        android:text="@string/anleitung"
+        android:textAlignment="inherit"
+        android:textColor="#FFFFFF"
+        app:autoSizeMaxTextSize="24sp"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleBar2"
+        app:layout_constraintBottom_toTopOf="@id/guideline"
+        app:layout_constraintHeight_default="wrap"
+        app:layout_constraintVertical_bias="0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.65" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSelectFolder"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Select Folder"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        app:backgroundTint="@null"
+        app:autoSizeMaxTextSize="35sp"
+        app:autoSizeMinTextSize="4sp"
+        app:autoSizeTextType="uniform"
+        android:background="@drawable/left_button_background"
+        app:layout_constraintWidth_percent="0.8"
+        app:layout_constraintHeight_percent="0.22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/infoButton"
+        app:layout_constraintTop_toBottomOf="@id/guideline"
+        app:layout_constraintHeight_default="wrap"
+        app:layout_constraintVertical_bias="0"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/infoButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        app:icon="@drawable/info"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        android:layout_marginTop="10dp"
+        app:iconSize="24dp"
+        app:iconTint="#FFFFFF"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        app:cornerRadius="24dp"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        app:backgroundTint="@android:color/transparent"
+        app:rippleColor="#33FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

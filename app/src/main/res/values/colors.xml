@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="vptback">#444654</color>
+    <color name="vptslightred">#964654</color>
+    <color name="vptslightgreen">#44A054</color>
+    <color name="vptslighterred">#784654</color>
+    <color name="vptslightergreen">#447854</color>
+
+
+
+</resources>
