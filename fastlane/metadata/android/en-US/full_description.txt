@@ -1,6 +1,7 @@
 Welcome to Rate Your Pics, an app that allows you to rate your pictures very quickly.
 
 <b>How it works:</b>
+
 * Tap the big red button ("Select Folder") to select a folder
 * You start rating the pictures with the buttons from ★☆☆☆☆ to ★★★★★
 * the files get renamed as you rate 
@@ -8,6 +9,7 @@ Welcome to Rate Your Pics, an app that allows you to rate your pictures very qui
 * forward and backward buttons go forward and backward in the preview. That way you can change your rating or skip rating a picture.
 
 <b>Features:</b>
+
 * ⭐ <b>Rating Overlay</b> - Hold any picture for half a second to toggle overlay mode. In this mode, your rating is displayed over the picture for one-sixth of a second after each rating. You can disable this feature for faster rating.
 * 🗑️ <b>Delete 0 Star Pictures</b> - 0 Star Pictures are only deleted when you pause the app, close it, or press the button that takes you to the welcome screen. Until then, you can undo the ratings.
 * ☕ <b>Contemplative Loading</b> - Our state-of-the-art image loading process takes just long enough for you to ponder the meaning of life, the universe, and everything. It's the perfect opportunity to grab a cup of <strike>coffee</strike> tea, contemplate your existence, or practice your patience. We believe in turning waiting time into quality time!
