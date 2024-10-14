@@ -1,0 +1,1 @@
+remove unecessary permissions for maximum privacy

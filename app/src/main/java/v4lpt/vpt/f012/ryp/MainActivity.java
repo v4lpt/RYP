@@ -360,7 +360,7 @@ public class MainActivity extends AppCompatActivity {
             handler.postDelayed(() -> {
                 ratingOverlayView.setVisibility(View.GONE);
                 navigateImages(1);
-            }, 500);
+            }, 166);
         } else {
             navigateImages(1);
         }
